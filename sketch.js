@@ -4,6 +4,7 @@ var gameState = 0;
 var playerCount=0;
 var allPlayers;
 var distance = 0;
+var rank = 0;
 var database;
 
 var form, player, game;

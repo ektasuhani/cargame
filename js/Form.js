@@ -27,6 +27,7 @@ this.reset.mousePressed(()=>{
   database.ref('/').update({
     players:null
   })
+  Player.updatecarsatend(0)
 })
     this.button.mousePressed(()=>{
       this.input.hide();
